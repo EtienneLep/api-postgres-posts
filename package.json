@@ -1,0 +1,34 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "Simple CRUD API for social network app",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": " ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aimeric-sr/node-api-postgres.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aimeric-sr/node-api-postgres/issues"
+  },
+  "homepage": "https://github.com/aimeric-sr/node-api-postgres#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.1",
+    "pg-promise": "^10.11.1",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "nodemon": "^2.0.15"
+  }
+}
