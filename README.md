@@ -48,7 +48,7 @@ Celui-ci a pour but principal, de pouvoir effectuer des tests sur le code de cet
 
 
         PGHOST=<votre host>(par exemple localhost)  
-        PGPORT=<votre port>(par exemple 3000)  
+        PGPORT=<votre port>(par exemple 5432)  
         PGDATABASE=<Le nom de votre base de données>  
         PGUSER=<votre nom de rôle>  
         PGPASSWORD=<votre password>  
