@@ -7,7 +7,7 @@ et `utilisateurs`), développées par d'autres membres de notre équipe. Enfin, 
 futur proche, avec une interface mobile qui sera développé par la suite, par notre équipe.
 Celui-ci a pour but principal, de pouvoir effectuer des tests sur le code de cette API.
 
-### Pré-requis
+## Pré-requis
 
 - Node.js
 - PostgreSQL
