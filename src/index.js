@@ -10,5 +10,5 @@ app.use('/v1',router);
 app.use(apiErrorHandler);
 
 dotenv.config();
-app.listen(process.env.SERVERPORT, () => console.log(`Server running on port ${process.env.SERVERPORT}.`));
+app.listen(process.env.SERVERPORT, () => console.log(`Server running on port ${process.env.SERVERPORT} .`));
 
