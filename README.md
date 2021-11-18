@@ -46,10 +46,10 @@ Celui-ci a pour but principal, de pouvoir effectuer des tests sur le code de cet
 
     PGHOST=<votre host>(par exemple localhost)  
     PGPORT=<votre port>(par exemple 3000)  
-    PGDATABASE=<Le nom de votre base de données> 
-    PGUSER=<votre nom de role>
-    PGPASSWORD=<votre password>
-    SERVERPORT=<votre port serveur> (par exemple 8080)
+    PGDATABASE=<Le nom de votre base de données>  
+    PGUSER=<votre nom de role>  
+    PGPASSWORD=<votre password>  
+    SERVERPORT=<votre port serveur> (par exemple 8080)  
 - Puis, à la racine du projet, effectuer la commande `npm install`.
 
 
