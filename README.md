@@ -21,23 +21,26 @@ Celui-ci a pour but principal, de pouvoir effectuer des tests sur le code de cet
 
 
       CREATE ROLE <votre nom de role> WITH LOGIN PASSWORD '<votre password>';
+
 - Donner les droits de créations de bases de données au rôle avec :
 
+ 
+    ALTER ROLE <votre nom de role> CREATEDB;
 
-      ALTER ROLE <votre nom de role> CREATEDB;
 - Connecter postgres au rôle : `psql -d postgres -U <votre nom de role>`.
 - Créer une base de données :
 
 
-      CREATE DATABASE <Le nom de votre base de données>;
+    CREATE DATABASE <Le nom de votre base de données>;
+
   - Enfin, créer la table suivante :  
   
-
-    (id serial NOT NULL,
-    id_user INT NOT NULL,
-    title varchar(50) NOT NULL,
-    description varchar(500) NOT NULL,
-    created_at timestamp with time zone DEFAULT now()).
+    
+    CREATE TABLE posts (id serial NOT NULL,  
+    id_user INT NOT NULL,  
+    title varchar(50) NOT NULL,  
+    description varchar(500) NOT NULL,  
+    created_at timestamp with time zone DEFAULT now());  
 
 - Quitter le terminal.
 - Ajouter un fichier `.env` à la racine du projet et y ajouter la structure suivante :
@@ -50,6 +53,7 @@ Celui-ci a pour but principal, de pouvoir effectuer des tests sur le code de cet
     PGUSER=<votre nom de role>  
     PGPASSWORD=<votre password>  
     SERVERPORT=<votre port serveur> (par exemple 8080)  
+
 - Puis, à la racine du projet, effectuer la commande `npm install`.
 
 
