@@ -59,7 +59,10 @@ Celui-ci a pour but principal, de pouvoir effectuer des tests sur le code de cet
 
 ## Postman
 
-Un fichier .json
+Un fichier `social-network.postman_collection.json` est disponible dans le répertoire Postman
+et permet d'importer, dans votre espace de travail, les paramètres afin de pouvoir effectuer des
+requêtes, pour pouvoir tester l'API. Il suffit de sélectionner le bouton `import` et d'importer 
+le fichier JSON. 
 
 ## Tests
 
