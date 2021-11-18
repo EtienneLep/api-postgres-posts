@@ -20,14 +20,14 @@ Celui-ci a pour but principal, de pouvoir effectuer des tests sur le code de cet
 - Créer un rôle entrant dans le terminal :  
 
 
-      CREATE ROLE <votre nom de role> WITH LOGIN PASSWORD '<votre password>';
+      CREATE ROLE <votre nom de rôle> WITH LOGIN PASSWORD '<votre password>';
 
 - Donner les droits de créations de bases de données au rôle avec :
 
  
-        ALTER ROLE <votre nom de role> CREATEDB;
+        ALTER ROLE <votre nom de rôle> CREATEDB;
 
-- Connecter postgres au rôle : `psql -d postgres -U <votre nom de role>`.
+- Connecter postgres au rôle : `psql -d postgres -U <votre nom de rôle>`.
 - Créer une base de données :
 
 
@@ -50,7 +50,7 @@ Celui-ci a pour but principal, de pouvoir effectuer des tests sur le code de cet
         PGHOST=<votre host>(par exemple localhost)  
         PGPORT=<votre port>(par exemple 3000)  
         PGDATABASE=<Le nom de votre base de données>  
-        PGUSER=<votre nom de role>  
+        PGUSER=<votre nom de rôle>  
         PGPASSWORD=<votre password>  
         SERVERPORT=<votre port serveur> (par exemple 8080)  
 
