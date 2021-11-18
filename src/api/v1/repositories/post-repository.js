@@ -1,3 +1,4 @@
+// contient toutes les requetes SQL
 const db = require('../../../config/database-config');
 
 class PostDAO {

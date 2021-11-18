@@ -31,6 +31,7 @@ class PostController {
         try {
             const {idUser, title, description} = req.body;
             const rowCreated = await postService.createPost(idUser, title, description);
+            //renvoie le chemin du post créé
             res.location('http://' + process.env.PGHOST + ':' + process.env.SERVERPORT + req.originalUrl + '/' + rowCreated.id);
             res.status(201).json();
         } catch (err) {

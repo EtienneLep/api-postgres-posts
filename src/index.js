@@ -1,3 +1,4 @@
+//point d'entrée de l'API
 const express = require('express');
 const router = require('./api/v1/routes');
 const apiErrorHandler = require('./api/v1/middleware/errors/api-error-handler');

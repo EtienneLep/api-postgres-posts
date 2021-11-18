@@ -8,6 +8,8 @@ const router = express.Router();
 
 router.get('/:id', postController.getPost);
 router.get('/', postController.getPosts);
+
+// permet de pouvoir valider les données de l'utilisateur (requete post et put)
 router.post('/',
     schemaValidationPost,
     validatePost,
@@ -17,6 +19,7 @@ router.put('/:id',
     schemaValidationPut,
     validatePost,
     postController.updatePost);
+
 router.delete('/:id', postController.deletePost);
 
 module.exports = router;

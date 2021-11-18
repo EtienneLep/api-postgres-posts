@@ -1,3 +1,4 @@
+//couche service, peu important pour l'instant mais devient indispensable si l'API devient plus complexe
 const postDAO = require('../repositories/post-repository');
 
 class PostService {

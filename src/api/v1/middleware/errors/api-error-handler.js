@@ -1,3 +1,5 @@
+//gestion manuel des erreurs pour éviter les fuites de données
+// ou de renvoyer des informations sensibles à l'utilisateur
 const ApiError = require("./api-error");
 
 function apiErrorHandler(err, req, res, next) {
