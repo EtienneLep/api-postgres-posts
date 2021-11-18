@@ -16,6 +16,13 @@ CREATE TABLE posts
 )
 
 update the crenditials with yours in the file src/config/database-config.js to connect to your local postgresql server
+and create a .env file with this structure :
+PGHOST=
+PGPORT=
+PGDATABASE=
+PGUSER=
+PGPASSWORD=
+SERVERPORT=
 
 and in the terminal run : 
 
